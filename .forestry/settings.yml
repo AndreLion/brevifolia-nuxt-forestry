@@ -4,8 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: heading
-  label: SideBarFoo
+- type: directory
+  path: ''
+  label: Sidebarfoo
+  create: all
+  match: "**/*"
 - type: heading
   label: header
 - type: heading
